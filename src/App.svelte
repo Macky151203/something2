@@ -1,7 +1,10 @@
 <script>
 
 </script>
+
 <main>
+	<script src="https://kit.fontawesome.com/b801f4565a.js" crossorigin="anonymous"></script>
+	
     <div class="navbar">
 		<div class="searchbar">
 			<div class="right">
@@ -12,7 +15,7 @@
 
 	<div class="secondcontainer">
 		<div class="wrapper">
-			<div class="static-text">I em</div>
+			<div class="static-text"></div>
 			<div class="dynamic-text">
 				<div class="li"><span>Get access to...</span></div>
 				<div class="li"><span>Notes, Uniform...</span></div>
@@ -65,20 +68,44 @@
 				LOGO
 			</div>
 			<div class="fgrid">
-				<div class="gitem"></div>
-				<div class="gitem"></div>
-				<div class="gitem"></div>
-				<div class="gitem"></div>
+				<div class="gitem1"><i class="fa-brands fa-instagram fa-2xl"></i></div>
+				<div class="gitem1"><i class="fa-brands fa-twitter fa-2xl"></i></div>
+				<div class="gitem1"><i class="fa-brands fa-linkedin fa-2xl"></i></div>
+				<div class="gitem1"><i class="fa-brands fa-facebook fa-2xl"></i></div>
 			</div>
 		</div>
-		<div class="fitem"></div>
-		<div class="fitem"></div>
-		<div class="fitem"></div>
+		<div class="fitem">
+			<ul class="list2">
+				<li class="litem"><b>Useful link</b></li>
+				<li class="litem">Home</li>
+				<li class="litem">About</li>
+				<li class="litem">Contact</li>
+				<li class="litem">Terms and Conditions</li>
+			</ul>
+		</div>
+		<div class="fitem">
+			<ul class="list2">
+				<li class="litem">Contact us</li>
+				<li class="litem">Address-xyz</li>
+				<li class="litem">Phone-xxxxx69420</li>
+				<li class="litem">Email-vettiboy@freemail.com</li>
+				
+			</ul>
+		</div>
+		<div class="fitem">
+			<ul class="list2">
+				<li class="litem3">Notify me</li>
+				<li class="litem3">We will notify you whenever new product comes</li>
+				<li class="litem3 input"><input type="text" name="" id="" placeholder="Email"></li>
+				<li class="litem3 input"><input type="text" name="" id="" placeholder="Phone"></li>
+			</ul>
+		</div>
 	</div>
 		
 	</div>
 </main>
 <style>
+	
     *{
         max-width: 100vw;
         max-height: 100vh;
@@ -115,8 +142,8 @@
 	.secondcontainer{
 		width: 100vw;
 		height: 100px;
-		background-color: white;
-		margin: 10px;
+		background-color: yellow;
+		/* margin: 10px; */
 		padding: 10px;
 		display: flex;
 		justify-content: center;
@@ -171,7 +198,7 @@
 		width: 100%;
 		border-left: 2px solid black;
 		animation: typing 2s steps(30) infinite ;
-		background: white;
+		background: yellow;
 		z-index: 1;
 	}
 	@keyframes typing{
@@ -217,7 +244,7 @@
 		
 	}
 	.fitem{
-		background-color: grey;
+		
 		
 	}
 	.logo{
@@ -241,4 +268,22 @@
 		height: 50px;
 		background-color: white;
 	}
+	.list2{
+		margin-left:35px ;
+		margin-top: 5px;
+		padding: 5px;
+		list-style: none;
+	}
+	.litem{
+		padding: 5px;
+	}
+	.litem3{
+		padding: 5px;
+	}
+	.input{
+		border: none ;
+	}
+	
+	
+	
 </style>
